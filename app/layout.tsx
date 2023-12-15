@@ -1,8 +1,9 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import type { Metadata } from "next";
 import localFont from "next/font/local";
 
-import './globals.css'
+import "./globals.css";
+import { siteConfig } from "@/config/site";
+import PlatformLayout from "./(platform)/layout";
 
 const mona = localFont({
   src: [
@@ -35,8 +36,17 @@ const mona = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "ProTasker",
-  description: "Your personal productivity companion in the digital world!",
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  icons: [
+    {
+      url: "/icons/logo.svg",
+      href: "/icons/logo.svg",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -50,4 +60,3 @@ export default function RootLayout({
     </html>
   );
 }
-
