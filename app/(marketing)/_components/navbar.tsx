@@ -21,11 +21,8 @@ export const Navbar = () => {
       <div className="md:max-w-screen-2xl mx-auto flex justify-between items-center w-full ">
         <Logo />
         <div className="flex justify-between items-center space-x-6 md:w-auto w-full">
-          <Button outline>
-            <Link href="/sign-in">Login</Link>
-          </Button>
           <Button>
-            <Link href="/sign-up">Try for free</Link>
+            <Link href="/login">Login</Link>
           </Button>
         </div>
       </div>

@@ -28,7 +28,7 @@ const MarketingPage = () => {
         </div>
       </div>
       <Button colored border shadow hover>
-        <Link href="/sign-up">Try ProTasker for free</Link>
+        <Link href="/register">Try ProTasker for free</Link>
       </Button>
     </div>
   );
