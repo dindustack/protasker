@@ -57,9 +57,4 @@ Ever wish your to-do list app had superpowers? Look no further! ProTasker is not
 
 Feel like adding your touch of magic? We welcome contributions! Fork the repo, make your changes, and submit a pull request. Let's make ProTasker even more awesome together.
 
-## Inspiration
-
-I was inspired by this project from this Youtube tutorial [Code With Antonio](https://www.youtube.com/watch?v=pRybm9lXW2c) – we'd love to hear from you!
-
-
 Ready to unleash productivity like never before? Dive in and let [Your Project Name] redefine how you tackle your to-dos. Happy coding! 🚀
